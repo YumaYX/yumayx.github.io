@@ -1,0 +1,35 @@
+<% require 'json' %>
+<% jsonlinks = JSON.parse(File.read("./data/links.json")) %>
+<% info = JSON.parse(File.read("./data/info.json")) %>
+
+<nav class="navbar">
+<div class="container">
+<ul class="navbar-list">
+<% jsonlinks.keys.each do |k| %>
+<li class="navbar-item"><a class="navbar-link" href="#<%= k.gsub(' ','-') %>"><%= k %></a></li>
+<% end %>
+<li class="navbar-item"><a class="navbar-link" href="#Others">Others</a></li>
+</ul>
+</div>
+</nav>
+
+<% jsonlinks.each do |k, v| %>
+<div class="docs-section" id="<%= k.gsub(' ','-') %>">
+<h4><%= k %></h4>
+<ul class="collection">
+<% jsonlinks[k].sort.each do |ltitle,inf| %>
+<li><a href="<%= inf["url"] %>"><%= ltitle %></a></li>
+<% end %>
+</ul>
+</div>
+<% end %>
+
+<div class="docs-section" id="Others">
+<h5>Others</h5>
+<ul>
+<% info.each do |k, v| %>
+<li><strong><%= k %></strong>: <%= v %></li>
+<% end %>
+</ul>
+</div>
+

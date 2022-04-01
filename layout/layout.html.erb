@@ -1,0 +1,10 @@
+<%
+  layout_dir = directory + "/layout"
+  header = ERB.new(File.read(layout_dir + "/header.html.erb"), nil, nil, '_header_out').result(binding)
+  content = ERB.new(File.read(layout_dir + "/content.html.erb"), nil, nil, '_content_out').result(binding)
+  footer = ERB.new(File.read(layout_dir + "/footer.html.erb"), nil, nil, '_footer_out').result(binding)
+%>
+
+<%= header %>
+<%= content %>
+<%= footer %>
