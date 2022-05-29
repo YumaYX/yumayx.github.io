@@ -8,7 +8,9 @@
 <% jsonlinks.keys.each do |k| %>
 <li class="navbar-item"><a class="navbar-link" href="#<%= k.gsub(' ','-') %>"><%= k %></a></li>
 <% end %>
-<li class="navbar-item"><a class="navbar-link" href="#Others">Others</a></li>
+<% info.keys.each do |k| %>
+<li class="navbar-item"><a class="navbar-link" href="#<%= k.gsub(' ','-') %>"><%= k %></a></li>
+<% end %>
 </ul>
 </div>
 </nav>
@@ -24,12 +26,22 @@
 </div>
 <% end %>
 
+
 <div class="docs-section" id="Others">
-<h5>Others</h5>
-<ul>
-<% info.each do |k, v| %>
-<li><strong><%= k %></strong>: <%= v %></li>
+<h4>Others</h4>
+<%info.each do |k,v| %>
+<h5 id="<%= k.gsub(' ','-') %>"><%= k %></h5>
+<ul class="collection">
+<% info[k].sort.each do |key, value| %>
+<% item = key %>
+<% if info[k].is_a?(Hash) %>
+<% item = (item + ": #{value}") %>
+<% elsif info[k].is_a?(Array) %>
+<%= info[k].sort.join(' / ') %>
+<% break %>
+<% end %>
+<li><%= item %></li> 
 <% end %>
 </ul>
+<% end %>
 </div>
-
