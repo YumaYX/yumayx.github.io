@@ -1,4 +1,18 @@
 {
+  "GitHub Repos": {
+    "RubyBox": {
+      "url": "https://github.com/YumaYX/RubyBox"
+    },
+    "Shell Cheat Sheet": {
+      "url": "https://github.com/YumaYX/ShellBox/wiki"
+    },
+    "ShellBox": {
+      "url": "https://github.com/YumaYX/ShellBox"
+    },
+    "RubyEnv": {
+      "url": "https://github.com/YumaYX/RubyEnv"
+    }
+  },
   "Links": {
     "GitHub": {
       "url": "https://github.com/YumaYX"
@@ -6,17 +20,8 @@
     "Twitter": {
       "url": "https://twitter.com/YumaYX"
     },
-    "RubyBox": {
-      "url": "https://github.com/YumaYX/RubyBox"
-    },
-    "Shell Cheat Sheet": {
-      "url": "https://github.com/YumaYX/ShellBox/wiki"
-    },
     "Wishlist": {
       "url":"https://www.amazon.co.jp/hz/wishlist/ls/2XNJG7ACRTROM"
-    },
-    "ShellBox": {
-      "url": "https://github.com/YumaYX/ShellBox"
     }
   }
 }
