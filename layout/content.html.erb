@@ -16,21 +16,18 @@
 </nav>
 
 <% jsonlinks.each do |k, v| %>
-<div class="docs-section" id="<%= k.gsub(' ','-') %>">
-<h4><%= k %></h4>
+<div class="docs-section">
+<h4 id="<%= k.gsub(' ','-') %>"><%= k %></h4>
 <ul class="collection">
 <% jsonlinks[k].sort.each do |ltitle,inf| %>
 <li><a href="<%= inf["url"] %>"><%= ltitle %></a></li>
 <% end %>
 </ul>
-</div>
 <% end %>
 
-
-<div class="docs-section" id="Others">
-<h4>Others</h4>
 <%info.each do |k,v| %>
-<h5 id="<%= k.gsub(' ','-') %>"><%= k %></h5>
+<div class="docs-section">
+<h4 id="<%= k.gsub(' ','-') %>"><%= k %></h4>
 <ul class="collection">
 <% info[k].sort.each do |key, value| %>
 <% item = key %>
@@ -43,5 +40,5 @@
 <li><%= item %></li> 
 <% end %>
 </ul>
-<% end %>
 </div>
+<% end %>
