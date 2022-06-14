@@ -2,23 +2,9 @@
 <% jsonlinks = JSON.parse(File.read("./data/links.json")) %>
 <% info = JSON.parse(File.read("./data/info.json")) %>
 
-<nav class="navbar">
-<div class="container">
-<ul class="navbar-list">
-<% jsonlinks.keys.each do |k| %>
-<li class="navbar-item"><a class="navbar-link" href="#<%= k.gsub(' ','-') %>"><%= k %></a></li>
-<% end %>
-<% info.keys.each do |k| %>
-<li class="navbar-item"><a class="navbar-link" href="#<%= k.gsub(' ','-') %>"><%= k %></a></li>
-<% end %>
-</ul>
-</div>
-</nav>
-
 <% jsonlinks.each do |k, v| %>
-<div class="docs-section">
-<h4 id="<%= k.gsub(' ','-') %>"><%= k %></h4>
-<ul class="collection">
+<h4><%= k %></h4>
+<ul>
 <% jsonlinks[k].sort.each do |ltitle,inf| %>
 <li><a href="<%= inf["url"] %>"><%= ltitle %></a></li>
 <% end %>
@@ -26,9 +12,8 @@
 <% end %>
 
 <%info.each do |k,v| %>
-<div class="docs-section">
-<h4 id="<%= k.gsub(' ','-') %>"><%= k %></h4>
-<ul class="collection">
+<h4><%= k %></h4>
+<ul>
 <% info[k].sort.each do |key, value| %>
 <% item = key %>
 <% if info[k].is_a?(Hash) %>
@@ -40,5 +25,4 @@
 <li><%= item %></li> 
 <% end %>
 </ul>
-</div>
 <% end %>
