@@ -1,0 +1,22 @@
+{
+  "YS910": {
+    "url": "https://yumayx.github.io/YS910/",
+    "short": "Docs for RHEL Clones"
+  },
+  "YS0": {
+    "url": "https://github.com/YumaYX/YS0",
+    "short": "Ansible Playbook"
+  },
+  "YS1": {
+    "url": "https://yumayx.github.io/YS1/",
+    "short": "Ruby Gem"
+  },
+  "YS1-R": {
+    "url": "https://yumayx.github.io/YS1-R/ys1r",
+    "short": "Rust Crate"
+  },
+  "YS1XL": {
+    "url": "https://github.com/YumaYX/YS1XL/",
+    "short": "VBA Functions"
+  }
+}

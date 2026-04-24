@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/extends.css">
+    <link rel="icon" href="/favicon.png" type="image/png">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h2 class="stitle"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h2>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="main">
+        {{ content }}
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <div class="container credit">
+        <h1>Yuma</h1>
+        {% if site.baseurl == "" %}
+        <p>✎ {{ site.title }} CREATED AND MAINTAINED BY <a href="https://github.com/YumaYX">YumaYX</a></p>
+        {% else %}
+        <p>✎ {{ site.title }} CREATED AND MAINTAINED BY <a href="/">Yuma</a></p>
+        {% endif %}
+      </div>
+    </footer>
+
+  </body>
+</html>

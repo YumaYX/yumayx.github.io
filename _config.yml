@@ -1,0 +1,16 @@
+title: Works
+description: My Works
+baseurl: ""
+url: ""
+github_username:  YumaYX
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - app.rb
+  - Makefile
+  - README.md
