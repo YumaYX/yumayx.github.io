@@ -7,7 +7,7 @@ layout: default
 <div class="one-half column">
 <section>
 
-<h1>SELECTED WORKS</h1>
+<h2>SELECTED WORKS</h2>
 <ul>
 <% @content_data.each do |r| %><% name = r.first %><% info = r.last %>
 <li><a href="<%= info['url'] %>"><%= name %> (<%= info['short'] %>)</a></li>
