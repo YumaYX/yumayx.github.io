@@ -11,6 +11,10 @@
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem"
   },
+  "YS124": {
+    "url": "https://yumayx.github.io/YS124/",
+    "short": "Ruby Code Examples"
+  },
   "YS1-R": {
     "url": "https://yumayx.github.io/YS1-R/ys1r",
     "short": "Rust Crate"
