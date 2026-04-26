@@ -13,14 +13,25 @@ hr {
     border: 0.5px solid #000;
 }
 
-code {
-    background: #f2f2f2;
-    border: 0;
-    font-family: monospace;
+pre code {
+    border-radius: 13px;
     line-height: 2.3rem;
+    padding: 2rem 2rem;
     font-size: 16px;
     overflow-x: auto;
 }
+
+pre code, code {
+    color: #000;
+    /**
+     * background:#f2f2f2;
+     * background: #ffea40;
+     */
+    background: #ffe047;
+    border: 0;
+    font-family: monospace;
+}
+
 h1 code,
 h2 code,
 h3 code,
@@ -67,7 +78,6 @@ a {
 }
 a:hover {
     color: #000;
-    background-color: #d4fb79;
     text-decoration: underline;
 }
 
