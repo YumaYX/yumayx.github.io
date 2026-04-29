@@ -1,26 +1,27 @@
 {
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
-    "short": "Docs for RHEL Clones"
+    "short": "Docs for RHEL Clones",
+    "desc":"YS910 is a record of validation conducted using a Red Hat Enterprise Linux clone."
   },
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
-    "short": "Ansible Playbook"
+    "short": "Ansible Playbook",
+    "desc":"YS0 is an Ansible recipe for setting up a work environment on RHEL–based clones."
   },
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
-    "short": "Ruby Gem"
+    "short": "Ruby Gem",
+    "desc":"YS1 is an indispensable RubyGem and concept designed to be both convenient and useful."
   },
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
-    "short": "Ruby Code Examples"
-  },
-  "YS1-R": {
-    "url": "https://yumayx.github.io/YS1-R/ys1r",
-    "short": "Rust Crate"
+    "short": "Ruby Code Examples",
+    "desc":"YS124 is a collection of Ruby code snippets, including the results."
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
-    "short": "VBA Functions"
+    "short": "VBA Functions",
+    "desc":"YS1XL is a collection of reusable VBA functions for Excel."
   }
 }

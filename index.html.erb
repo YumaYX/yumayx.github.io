@@ -9,12 +9,17 @@ layout: default
 
 <h2>SELECTED WORKS</h2>
 <ul>
-<% @content_data.each do |r| %><% name = r.first %><% info = r.last %>
-<li><a href="<%= info['url'] %>"><%= name %> (<%= info['short'] %>)</a></li>
-<% end %>
+  <% @content_data.each do |r| %>
+    <% name = r.first %>
+    <% info = r.last %>
+    <li><section>
+      <a href="<%= info['url'] %>"><%= name %></a>
+      <ul><li><%= info['desc'] %></li></ul>
+    </section></li>
+  <% end %>
 </ul>
 
-<a href="/docs/">more..</a>
+<section><a href="/docs/">more..</a></section>
 </section>
 </div>
 

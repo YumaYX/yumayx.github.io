@@ -27,7 +27,7 @@ pre code, code {
      * background:#f2f2f2;
      * background: #ffea40;
      */
-    background: #ffe047;
+    background: #ffe100;
     border: 0;
     font-family: monospace;
 }
@@ -159,16 +159,16 @@ small * {
     font-size: 1.4rem;
 }
 
-.stitle {
-    vertical-align: middle;
-    display: inline-block;
-    margin: 0;
-    transform: scaleX(1.1);
-    transform-origin: left;
+.navbar h1 {
+  margin: 0;
 }
 
-.stitle a {
-    font-size: 33px;
+.navbar h1 a {
+  display: inline-block;
+  vertical-align: middle;
+  transform: scaleX(1.1);
+  /* transform-origin: left; */
+  font-size: 33px;
 }
 
 blockquote {
