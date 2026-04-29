@@ -4,7 +4,6 @@ baseurl: ""
 url: ""
 github_username:  YumaYX
 
-theme: minima
 plugins:
   - jekyll-feed
 
