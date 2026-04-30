@@ -2,31 +2,31 @@
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
-    "desc":"YS910 is a record of validation conducted using a Red Hat Enterprise Linux clone.",
-    "tags":["RHEL", "Linux", "Docs", "System Administration"]
+    "desc": "YS910 is a technical project that validates common tasks and operations on AlmaLinux 9/10, a RHEL (Red Hat Enterprise Linux)–compatible Linux distribution. It provides a concise command cheat sheet, explains efficient workflows, and documents setup procedures to ensure reproducibility. The goal is to reduce work time, improve operational efficiency, and support smooth system adoption.",
+    "tags": ["RHEL", "Linux", "Docs", "System Administration"]
   },
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
-    "desc":"YS0 is an Ansible recipe for setting up a work environment on RHEL–based clones.",
-    "tags":["Ansible", "IaC(Infrastructure as Code)"]
+    "desc": "YS0 is a project that uses Ansible to configure work environments on RHEL (Red Hat Enterprise Linux)–based distributions, including the installation of Ruby, various servers, and additional tools. By applying predefined Playbooks, it reduces manual configuration errors and ensures consistent setups across multiple machines. It also adopts IaC (Infrastructure as Code), allowing infrastructure states to be managed as code, enabling version control and reliable reproducibility.",
+    "tags": ["Ansible", "IaC(Infrastructure as Code)"]
   },
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem",
-    "desc":"YS1 is an indispensable RubyGem and concept designed to be both convenient and useful.",
-    "tags":["Ruby", "Programming", "gem"]
+    "desc": "YS1 is an indispensable toolkit and concept designed to be both convenient and useful, making it something worth retaining. It is particularly valuable for fundamental information processing, improving both efficiency and accuracy in handling and managing data across various tasks. It also emphasizes the ability to reproduce the same state repeatedly in any environment and supports automation to streamline operations.",
+    "tags": ["Ruby", "Programming", "gem"]
   },
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
     "short": "Ruby Code Examples",
-    "desc":"YS124 is a collection of Ruby code snippets, including the results.",
-    "tags":["Ruby", "Docs", "Code snippets"]
+    "desc": "YS124 is a curated collection of Ruby code snippets, along with the outputs obtained from running them in irb (Interactive Ruby). It serves as both a learning resource and a handy cheat sheet, allowing users to quickly understand how code behaves in practice. By pairing examples with actual results, it helps reinforce understanding, speeds up development, and provides a reliable reference for common Ruby operations and patterns.",
+    "tags": ["Ruby", "Docs", "Code snippets"]
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
-    "desc":"YS1XL is a collection of reusable VBA functions for Excel.",
-    "tags":["Excel VBA", "Docs"]
+    "desc": "YS1XL is a collection of reusable VBA (Visual Basic for Applications) functions designed for Excel. It helps eliminate the need to write the same code repeatedly by providing standardized, ready-to-use components. By leveraging these functions, users can automate routine tasks, streamline workflows, and improve overall productivity. The toolkit also promotes consistency and maintainability, making Excel-based operations more efficient and reliable.",
+    "tags": ["Excel VBA", "Programming", "Macros"]
   }
 }
