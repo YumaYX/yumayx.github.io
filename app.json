@@ -3,7 +3,7 @@
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
     "desc":"YS910 is a record of validation conducted using a Red Hat Enterprise Linux clone.",
-    "tags":["RHEL", "Linux", "Docs", "System Administrator"]
+    "tags":["RHEL", "Linux", "Docs", "System Administration"]
   },
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
