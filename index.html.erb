@@ -9,20 +9,18 @@ layout: default
 
 <h2>SELECTED WORKS</h2>
 
-<div class="spacer"></div>
-
 <ul>
   <% @content_data.each do |r| %>
     <% name = r.first %>
     <% info = r.last %>
-    <li>
-      <a href="<%= info['url'] %>"><%= name %></a>
-      <ul>
-      <p><i><b>Abstract</b></i> - <%= info['desc'] %></p>
-      <p><i><b>Keywords: </b></i><%= info['tags'].sort.join(", ") %></p>
-      </ul>
-    </li>
-    <div class="spacer"></div>
+<li>
+  <h3><a href="<%= info['url'] %>"><%= name %></a></h3>
+  <ul>
+    <li><i><b>Abstract</b></i> - <%= info['desc'] %></li>
+    <li><i><b>Keywords: </b></i><%= info['tags'].sort.join(", ") %></li>
+  </ul>
+  <div class="spacer"></div>
+</li>
   <% end %>
 </ul>
 
