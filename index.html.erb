@@ -14,7 +14,10 @@ layout: default
     <% info = r.last %>
     <li><section>
       <a href="<%= info['url'] %>"><%= name %></a>
-      <ul><li><%= info['desc'] %></li></ul>
+      <ul>
+      <li><small><%= info['tags'].sort.join(" / ") %></small></li>
+      <li><%= info['desc'] %></li>
+      </ul>
     </section></li>
   <% end %>
 </ul>

@@ -2,26 +2,31 @@
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
-    "desc":"YS910 is a record of validation conducted using a Red Hat Enterprise Linux clone."
+    "desc":"YS910 is a record of validation conducted using a Red Hat Enterprise Linux clone.",
+    "tags":["RHEL", "Linux", "Docs", "System Administrator"]
   },
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
-    "desc":"YS0 is an Ansible recipe for setting up a work environment on RHEL–based clones."
+    "desc":"YS0 is an Ansible recipe for setting up a work environment on RHEL–based clones.",
+    "tags":["Ansible", "IaC(Infrastructure as Code)"]
   },
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem",
-    "desc":"YS1 is an indispensable RubyGem and concept designed to be both convenient and useful."
+    "desc":"YS1 is an indispensable RubyGem and concept designed to be both convenient and useful.",
+    "tags":["Ruby", "Programming", "gem"]
   },
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
     "short": "Ruby Code Examples",
-    "desc":"YS124 is a collection of Ruby code snippets, including the results."
+    "desc":"YS124 is a collection of Ruby code snippets, including the results.",
+    "tags":["Ruby", "Docs", "Code snippets"]
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
-    "desc":"YS1XL is a collection of reusable VBA functions for Excel."
+    "desc":"YS1XL is a collection of reusable VBA functions for Excel.",
+    "tags":["Excel VBA", "Docs"]
   }
 }
