@@ -15,13 +15,13 @@ layout: default
   <% @content_data.each do |r| %>
     <% name = r.first %>
     <% info = r.last %>
-    <li><section>
+    <li>
       <a href="<%= info['url'] %>"><%= name %></a>
       <ul>
-      <li><small><i><%= info['tags'].sort.join(" / ") %></i></small></li>
-      <li><%= info['desc'] %></li>
+      <p><i><b>Abstract</b></i> - <%= info['desc'] %></p>
+      <p><i><b>Keywords: </b></i><%= info['tags'].sort.join(", ") %></p>
       </ul>
-    </section></li>
+    </li>
     <div class="spacer"></div>
   <% end %>
 </ul>
