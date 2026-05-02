@@ -18,7 +18,7 @@
     "short": "Ruby Gem",
     "desc": "YS1 is an indispensable toolkit and concept designed to be both convenient and useful, making it something worth retaining. It is particularly valuable for fundamental information processing, improving both efficiency and accuracy in handling and managing data across various tasks. It also emphasizes the ability to reproduce the same state repeatedly in any environment and supports automation to streamline operations.",
     "tags": ["Ruby", "Programming", "gem"],
-    "desc_ja":"YS1は、利便性と実用性を兼ね備え、価値のある不可欠なツールキットであり、コンセプトである。特に基礎的な情報処理において有用であり、さまざまな作業におけるデータの取り扱いや管理の効率と正確性を向上させる。また、どの環境でも同じ状態を繰り返し再現できることを重視しており、運用を効率化するための自動化も支援する。"
+    "desc_ja":"YS1は、基礎的な情報処理を行うRuby gemである。実用性を兼ね備えたコンセプトモデルである。データの取り扱いや情報処理の効率と正確性を向上させる。また、どの環境でも同じ状態を繰り返し再現できることを重視しており、運用を効率化するための自動化支援を行う。"
   },
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
