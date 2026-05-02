@@ -25,7 +25,7 @@
     "short": "Ruby Code Examples",
     "desc": "YS124 is a curated collection of Ruby code snippets, along with the outputs obtained from running them in irb (Interactive Ruby). It serves as both a learning resource and a handy cheat sheet, allowing users to quickly understand how code behaves in practice. By pairing examples with actual results, it helps reinforce understanding, speeds up development, and provides a reliable reference for common Ruby operations and patterns.",
     "tags": ["Ruby", "Docs", "Code snippets"],
-    "desc_ja":"YS124は、Rubyのコードスニペットと、それらをirb（Interactive Ruby）で実行した結果をまとめた厳選コレクションである。学習リソースとしても実用的なチートシートとしても機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援し、Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
+    "desc_ja":"YS124は、Rubyのコードスニペットと、それらをirb（Interactive Ruby）で実行した結果をまとめたドキュメントである。実用的なチートシートとして機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。Rubyのコードスニペットの具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援する。Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
