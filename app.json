@@ -2,7 +2,7 @@
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
-    "desc": "YS910 is a technical project that validates common tasks and operations on AlmaLinux 9/10, a RHEL (Red Hat Enterprise Linux)–compatible Linux distribution. It provides a concise command cheat sheet, explains efficient workflows, and documents setup procedures to ensure reproducibility. The goal is to reduce work time, improve operational efficiency, and support smooth system adoption.",
+    "desc": "YS910 is a technical document that verifies system administration tasks and operations on AlmaLinux 9/10. It is compatible with Red Hat Enterprise Linux (RHEL)–compatible distributions. The document provides a concise command cheat sheet, explains efficient workflows, and documents setup procedures to ensure reproducibility. The purpose of this project is to reduce work time, improve operational efficiency, and streamline system deployment.",
     "tags": ["RHEL", "Docs", "System Administration"],
     "desc_ja":"YS910は、AlmaLinux 9/10上でのシステム管理のタスクや操作を検証した技術ドキュメントである。Red Hat Enterprise Linux（RHEL）の互換ディストリビューションに対応している。ドキュメントでは、簡潔なコマンドチートシートを提供し、効率的なワークフローを解説し、再現性を確保するためのセットアップ手順を文書化している。本プロジェクトの目的は、作業時間の削減、運用効率の向上、そしてシステム導入の円滑化である。"
   },
