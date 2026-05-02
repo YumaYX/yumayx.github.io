@@ -24,13 +24,34 @@ layout: default
   <% end %>
 </ul>
 
+<a href="/docs/">more..</a>
 
 </section>
 </div>
 
 <div class="one-half column">
 <section>
+
 <img alt="lotus" src="/assets/images/lotus.webp" width="1000" height="1000" style="width:100%; height:auto;">
+
+
+<h2>作品集</h2>
+
+<ul>
+  <% @content_data.each do |r| %>
+    <% name = r.first %>
+    <% info = r.last %>
+<li>
+  <h3><a href="<%= info['url'] %>"><%= name %></a></h3>
+  <ul>
+    <li><i><b>Abstract</b></i> - <%= info['desc_ja'] %></li>
+    <li><i><b>Keywords: </b></i><%= info['tags'].sort_by {|s| s.upcase }.join(", ") %></li>
+  </ul>
+  <div class="spacer"></div>
+</li>
+  <% end %>
+</ul>
+
 <a href="/docs/">more..</a>
 </section>
 </div>
