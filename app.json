@@ -3,30 +3,35 @@
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
     "desc": "YS910 is a technical project that validates common tasks and operations on AlmaLinux 9/10, a RHEL (Red Hat Enterprise Linux)–compatible Linux distribution. It provides a concise command cheat sheet, explains efficient workflows, and documents setup procedures to ensure reproducibility. The goal is to reduce work time, improve operational efficiency, and support smooth system adoption.",
-    "tags": ["RHEL", "Docs", "System Administration"]
+    "tags": ["RHEL", "Docs", "System Administration"],
+    "desc_ja":"YS910は、AlmaLinux 9/10上での一般的なタスクや操作を検証する技術プロジェクトである。これは、Red Hat Enterprise Linux（RHEL）の互換ディストリビューションに対応している。簡潔なコマンドチートシートを提供し、効率的なワークフローを解説し、再現性を確保するためのセットアップ手順を文書化している。その目的は、作業時間の削減、運用効率の向上、そしてシステム導入の円滑化を支援することである。"
   },
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
     "desc": "YS0 is a project that uses Ansible to configure work environments on RHEL (Red Hat Enterprise Linux)–based distributions, including the installation of Ruby, various servers, and additional tools. By applying predefined Playbooks, it reduces manual configuration errors and ensures consistent setups across multiple machines. It also adopts IaC (Infrastructure as Code), allowing infrastructure states to be managed as code, enabling version control and reliable reproducibility.",
-    "tags": ["Ansible", "IaC(Infrastructure as Code)"]
+    "tags": ["Ansible", "IaC(Infrastructure as Code)"],
+    "desc_ja":"YS0は、Ansibleを使用して、Red Hat Enterprise Linuxベースのディストリビューション上に作業環境を構築するプロジェクトである。これには、Rubyや各種サーバー、追加ツールのインストールが含まれる。あらかじめ定義されたPlaybookを適用することで、手動設定によるミスを削減し、複数マシン間で一貫した環境構築を実現する。さらに、Infrastructure as Code（Infrastructure as Code）を採用しており、インフラの状態をコードとして管理できるため、バージョン管理や高い再現性を確保することが可能である。"
   },
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem",
     "desc": "YS1 is an indispensable toolkit and concept designed to be both convenient and useful, making it something worth retaining. It is particularly valuable for fundamental information processing, improving both efficiency and accuracy in handling and managing data across various tasks. It also emphasizes the ability to reproduce the same state repeatedly in any environment and supports automation to streamline operations.",
-    "tags": ["Ruby", "Programming", "gem"]
+    "tags": ["Ruby", "Programming", "gem"],
+    "desc_ja":"YS1は、利便性と実用性を兼ね備え、価値のある不可欠なツールキットであり、コンセプトである。特に基礎的な情報処理において有用であり、さまざまな作業におけるデータの取り扱いや管理の効率と正確性を向上させる。また、どの環境でも同じ状態を繰り返し再現できることを重視しており、運用を効率化するための自動化も支援する。"
   },
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
     "short": "Ruby Code Examples",
     "desc": "YS124 is a curated collection of Ruby code snippets, along with the outputs obtained from running them in irb (Interactive Ruby). It serves as both a learning resource and a handy cheat sheet, allowing users to quickly understand how code behaves in practice. By pairing examples with actual results, it helps reinforce understanding, speeds up development, and provides a reliable reference for common Ruby operations and patterns.",
-    "tags": ["Ruby", "Docs", "Code snippets"]
+    "tags": ["Ruby", "Docs", "Code snippets"],
+    "desc_ja":"YS124は、Rubyのコードスニペットと、それらをirb（Interactive Ruby）で実行した結果をまとめた厳選コレクションである。学習リソースとしても実用的なチートシートとしても機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援し、Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
     "desc": "YS1XL is a collection of reusable VBA (Visual Basic for Applications) functions designed for Excel. It helps eliminate the need to write the same code repeatedly by providing standardized, ready-to-use components. By leveraging these functions, users can automate routine tasks, streamline workflows, and improve overall productivity. The toolkit also promotes consistency and maintainability, making Excel-based operations more efficient and reliable.",
-    "tags": ["Excel VBA", "Programming", "Macros"]
+    "tags": ["Excel VBA", "Programming", "Macros"],
+    "desc_ja":"YS1XLは、Microsoft Excel向けに設計された、再利用可能なVBA（Visual Basic for Applications）の関数コレクションである。標準化されたすぐに使えるコンポーネントを提供することで、同じコードを繰り返し記述する手間を省く。これらの関数を活用することで、定型作業の自動化やワークフローの効率化が可能になり、全体的な生産性が向上する。また、一貫性と保守性の向上にも寄与し、Excelベースの業務をより効率的かつ信頼性の高いものにする。"
   }
 }
