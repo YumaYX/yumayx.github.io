@@ -2,60 +2,43 @@
 layout: default
 ---
 
-<div class="row">
+<% [
+  { lang: "en", title: "SELECTED WORKS", desc_key: "desc", more: "more.." },
+  { lang: "ja", title: "作品集", desc_key: "desc_ja", more: "さらに表示.." }
+].each do |lang| %>
 
 <div class="one-half column">
+
+<% if lang[:lang] == "ja" %>
+<section>
+<img alt="lotus" src="/assets/images/top.webp" width="1000" height="1000" style="width:100%; height:auto;">
+</section>
+<% end %>
+
 <section>
 
-<h2>SELECTED WORKS</h2>
+<h1><%= lang[:title] %></h1>
 
-<ul>
-  <% @content_data.each do |r| %>
-    <% name = r.first %>
-    <% info = r.last %>
-<li>
-  <h3><a href="<%= info['url'] %>"><%= name %></a></h3>
-  <ul>
-    <li style="text-align: justify;"><i><b>Abstract</b></i> - <%= info['desc'] %></li>
-    <li><i><b>Keywords: </b></i><%= info['tags'].sort_by {|s| s.upcase }.join(", ") %></li>
-  </ul>
-  <div class="spacer"></div>
-</li>
-  <% end %>
-</ul>
+<% @content_data.each do |name, info| %>
+<article>
+    <h2><a href="<%= info['url'] %>"><%= name %></a></h2>
+    <ul>
+        <li style="<%= "text-align: justify;" if lang[:lang] == "en" %>">
+        <i><b><%= lang[:lang] == "en" ? "Abstract" : "概要" %></b></i> - <%= info[lang[:desc_key]] %>
+        </li>
 
-<a href="/docs/">more..</a>
+        <li>
+        <i><b><%= lang[:lang] == "en" ? "Keywords: " : "キーワード: " %></b></i>
+        <%= info['tags'].sort_by { |s| s.upcase }.join(", ") %>
+        </li>
+    </ul>
+</article>
+<div class="spacer"></div>
+<% end %>
+
+<a href="/docs/"><%= lang[:more] %></a>
 
 </section>
 </div>
 
-<div class="one-half column">
-<section>
-
-<img alt="lotus" src="/assets/images/lotus.webp" width="1000" height="1000" style="width:100%; height:auto;">
-</section>
-
-
-<section>
-<h2>作品集</h2>
-
-<ul>
-  <% @content_data.each do |r| %>
-    <% name = r.first %>
-    <% info = r.last %>
-<li>
-  <h3><a href="<%= info['url'] %>"><%= name %></a></h3>
-  <ul>
-    <li><i><b>概要</b></i> - <%= info['desc_ja'] %></li>
-    <li><i><b>キーワード: </b></i><%= info['tags'].sort_by {|s| s.upcase }.join(", ") %></li>
-  </ul>
-  <div class="spacer"></div>
-</li>
-  <% end %>
-</ul>
-
-<a href="/docs/">さらに表示..</a>
-</section>
-</div>
-
-</div>
+<% end %>
