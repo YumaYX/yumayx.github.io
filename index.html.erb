@@ -17,7 +17,7 @@ layout: default
   <h3><a href="<%= info['url'] %>"><%= name %></a></h3>
   <ul>
     <li><i><b>Abstract</b></i> - <%= info['desc'] %></li>
-    <li><i><b>Keywords: </b></i><%= info['tags'].sort_by {|s| s.size }.join(", ") %></li>
+    <li><i><b>Keywords: </b></i><%= info['tags'].sort_by {|s| s.upcase }.join(", ") %></li>
   </ul>
   <div class="spacer"></div>
 </li>
