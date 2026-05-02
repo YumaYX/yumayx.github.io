@@ -10,7 +10,7 @@
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
     "desc": "YS0 is a project that uses Ansible to configure work environments on RHEL (Red Hat Enterprise Linux)–based distributions, including the installation of Ruby, various servers, and additional tools. By applying predefined Playbooks, it reduces manual configuration errors and ensures consistent setups across multiple machines. It also adopts IaC (Infrastructure as Code), allowing infrastructure states to be managed as code, enabling version control and reliable reproducibility.",
-    "tags": ["Ansible", "IaC(Infrastructure as Code)"],
+    "tags": ["Ansible", "IaC(Infrastructure as Code)", "Git"],
     "desc_ja":"YS0は、Ansibleを使用して、Red Hat Enterprise Linuxベースのディストリビューション上に作業環境を構築するプレイブックである。プレイブックには、Rubyや各種サーバー、追加ツールのインストールが含まれる。あらかじめ定義されたプレイブックを適用することで、手動設定によるミスや揺れを無くしし、冪等性を持った環境構築を実現する。さらに、Infrastructure as Code（Infrastructure as Code）を採用しており、インフラの状態をコードとして管理できるため、バージョン管理や高い再現性を確保することが可能である。"
   },
   "YS1": {
