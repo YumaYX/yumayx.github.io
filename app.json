@@ -23,7 +23,7 @@
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
     "short": "Ruby Code Examples",
-    "desc": "YS124 is a curated collection of Ruby code snippets, along with the outputs obtained from running them in irb (Interactive Ruby). It serves as both a learning resource and a handy cheat sheet, allowing users to quickly understand how code behaves in practice. By pairing examples with actual results, it helps reinforce understanding, speeds up development, and provides a reliable reference for common Ruby operations and patterns.",
+    "desc": "YS124 is a document that compiles Ruby code snippets along with their execution results in irb (Interactive Ruby). It functions as a practical cheat sheet designed to help users quickly understand how code behaves in practice. By presenting Ruby code examples together with their outputs, it deepens understanding and supports faster development. It serves as a reliable reference for Ruby operations and patterns.",
     "tags": ["Ruby", "Docs", "Code snippets"],
     "desc_ja":"YS124は、Rubyのコードスニペットと、それらをirb（Interactive Ruby）で実行した結果をまとめたドキュメントである。実用的なチートシートとして機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。Rubyのコードスニペットの具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援する。Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
   },
