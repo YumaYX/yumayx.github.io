@@ -46,8 +46,8 @@ layout: default
 <li>
   <h3><a href="<%= info['url'] %>"><%= name %></a></h3>
   <ul>
-    <li><i><b>Abstract</b></i> - <%= info['desc_ja'] %></li>
-    <li><i><b>Keywords: </b></i><%= info['tags'].sort_by {|s| s.upcase }.join(", ") %></li>
+    <li><i><b>概要</b></i> - <%= info['desc_ja'] %></li>
+    <li><i><b>キーワード: </b></i><%= info['tags'].sort_by {|s| s.upcase }.join(", ") %></li>
   </ul>
   <div class="spacer"></div>
 </li>
