@@ -30,7 +30,7 @@
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
-    "desc": "YS1XL is a collection of reusable VBA (Visual Basic for Applications) functions designed for Excel. It helps eliminate the need to write the same code repeatedly by providing standardized, ready-to-use components. By leveraging these functions, users can automate routine tasks, streamline workflows, and improve overall productivity. The toolkit also promotes consistency and maintainability, making Excel-based operations more efficient and reliable.",
+    "desc": "YS1XL is a collection of reusable VBA (Visual Basic for Applications) functions designed for Microsoft Excel. It provides standardized, ready-to-use components that eliminate the need to repeatedly write the same code. By leveraging these functions, routine tasks can be automated and workflows can be streamlined. It also improves consistency and maintainability, making Excel-based operations more efficient and reliable.",
     "tags": ["Excel VBA", "Programming", "Macros"],
     "desc_ja":"YS1XLは、Microsoft Excel向けに設計された、再利用可能なVBA（Visual Basic for Applications）の関数集である。標準化されたすぐに使えるコンポーネントを提供する。それにより、同じコードを繰り返し記述する手間を省く。これらの関数を活用することで、定型作業の自動化やワークフローの効率化が可能になる。また、一貫性と保守性の向上にも寄与し、Excelベースの業務をより効率的かつ信頼性の高いものにする。"
   }
