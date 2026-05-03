@@ -24,11 +24,11 @@ layout: default
     <h2><a href="<%= info['url'] %>"><%= name %></a></h2>
     <ul>
         <li style="<%= "text-align: justify;" if lang[:lang] == "en" %>">
-        <i><b><%= lang[:lang] == "en" ? "Abstract" : "概要" %></b></i> - <%= info[lang[:desc_key]] %>
+        <b><%= lang[:lang] == "en" ? "<i>Abstract</i>" : "概要" %></b> - <%= info[lang[:desc_key]] %>
         </li>
 
         <li>
-        <i><b><%= lang[:lang] == "en" ? "Keywords: " : "キーワード: " %></b></i>
+        <b><%= lang[:lang] == "en" ? "<i>Keywords: </i>" : "キーワード: " %></b>
         <%= info['tags'].sort_by { |s| s.upcase }.join(", ") %>
         </li>
     </ul>
