@@ -17,7 +17,7 @@ layout: default
 
 <% if lang[:lang] == "ja" %>
 <section>
-<img alt="lotus" src="/assets/images/top.webp" width="1000" height="1000" style="width:100%; height:auto;">
+<img alt="lotus" src="/assets/images/lotus.webp" width="1000" height="1000" style="width:100%; height:auto;">
 </section>
 <% end %>
 
@@ -38,6 +38,26 @@ layout: default
     </ul>
 </article>
 <div class="spacer"></div>
+<% end %>
+
+<% if lang[:lang] == "en" %>
+<section>
+<pre><code style="background: #fff; color: #000;border-radius: 0px; border: 2px solid #000; user-select: none; font-size: 1.3rem">class Hash
+  def to_anon_class
+    source = self
+
+    Class.new do
+      source.each_key { |key| attr_accessor key.to_sym }
+
+      define_method(:initialize) do
+        source.each do |key, value|
+          instance_variable_set("@#{key}", value)
+        end
+      end
+    end
+  end
+end</code></pre>
+</section>
 <% end %>
 
 <a href="/docs/"><%= lang[:more] %></a>
