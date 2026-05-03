@@ -2,9 +2,14 @@
 layout: default
 ---
 
+<section>
+<div class="center"><h1>SELECTED WORKS</h1><p>Yuma</p></div>
+
+<div class="row">
+
 <% [
-  { lang: "en", title: "SELECTED WORKS", desc_key: "desc", more: "more.." },
-  { lang: "ja", title: "作品集", desc_key: "desc_ja", more: "さらに表示.." }
+  { lang: "en", desc_key: "desc", more: "more.." },
+  { lang: "ja", desc_key: "desc_ja", more: "さらに表示.." }
 ].each do |lang| %>
 
 <div class="one-half column">
@@ -16,8 +21,6 @@ layout: default
 <% end %>
 
 <section>
-
-<h1><%= lang[:title] %></h1>
 
 <% @content_data.each do |name, info| %>
 <article>
@@ -42,3 +45,7 @@ layout: default
 </div>
 
 <% end %>
+
+</div>
+
+</section>
