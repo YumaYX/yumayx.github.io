@@ -39,7 +39,7 @@ jobs:
           ruby app.rb
           rm -f sample.markdown
           bundle exec jekyll build
-          sed -z "s/\s\s//g; s/\n//g; s/> </></g" _site/index.html -i
+          #sed -z "s/\s\s//g; s/\n//g; s/> </></g" _site/index.html -i
           ruby -e 'puts ARGF.read.gsub(/\/\*[\s\S]*?\*\//, "").gsub(/\s{2,}/, " ")' assets/css/skeleton.css  | grep -v ^$ | sed -z 's/\n//g;s/\s{/{/g;s/{\s/{/g;s@\s}@}@g;s@}\s@}@g;s@,\s@,@g;s@;}@}@g;s@:\s@:@g;s/;\s/;/g' > tmp && mv tmp _site/assets/css/skeleton.css
           ruby -e 'puts ARGF.read.gsub(/\/\*[\s\S]*?\*\//, "").gsub(/\s{2,}/, " ")' assets/css/extends.css   | grep -v ^$ | sed -z 's/\n//g;s/\s{/{/g;s/{\s/{/g;s@\s}@}@g;s@}\s@}@g;s@,\s@,@g;s@;}@}@g;s@:\s@:@g;s/;\s/;/g' > tmp && mv tmp _site/assets/css/extends.css
 
