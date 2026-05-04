@@ -2,14 +2,14 @@
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
-    "desc": "YS910 is a technical document that verifies system administration tasks and operations on AlmaLinux 9/10. It is compatible with Red Hat Enterprise Linux (RHEL)–compatible distributions. The document provides a concise command cheat sheet, explains efficient workflows, and documents setup procedures to ensure reproducibility. The purpose of this project is to reduce work time, improve operational efficiency, and streamline system deployment.",
+    "desc": "YS910 is a technical document that verifies system administration tasks and operations on AlmaLinux 9/10. It is compatible with distributions compatible with RHEL (Red Hat Enterprise Linux). The document provides a concise command cheat sheet, explains efficient workflows, and documents setup procedures to ensure reproducibility. The purpose of this project is to reduce work time, improve operational efficiency, and streamline system deployment.",
     "tags": ["RHEL", "Docs", "System Administration"],
     "desc_ja": "YS910は、AlmaLinux 9/10上でのシステム管理のタスクや操作を検証した技術ドキュメントである。Red Hat Enterprise Linux（RHEL）の互換ディストリビューションに対応している。ドキュメントでは、簡潔なコマンドチートシートを提供し、効率的なワークフローを解説している。再現性を確保するためのセットアップ手順を文書化している。本プロジェクトの目的は、作業時間の削減、運用効率の向上、そしてシステム導入の円滑化である。"
   },
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
-    "desc": "YS0 is an Ansible-based playbook for building a working environment on Red Hat Enterprise Linux–based distributions. The playbook includes installation of Ruby, various servers, and additional tools. By applying predefined playbooks, it eliminates errors and inconsistencies caused by manual configuration and enables the creation of an idempotent environment. It also adopts Infrastructure as Code, allowing infrastructure states to be managed as code, which enables version control and high reproducibility.",
+    "desc": "YS0 is an Ansible-based playbook for building a working environment on distributions based on RHEL (Red Hat Enterprise Linux). The playbook includes installation of Ruby, various servers, and additional tools. By applying predefined playbooks, it eliminates errors and inconsistencies caused by manual configuration and enables the creation of an idempotent environment. It also adopts Infrastructure as Code, allowing infrastructure states to be managed as code, which enables version control and high reproducibility.",
     "tags": ["Ansible", "IaC(Infrastructure as Code)", "Git"],
     "desc_ja": "YS0は、Ansibleを使用して、Red Hat Enterprise Linuxベースのディストリビューション上に作業環境を構築するプレイブックである。プレイブックには、Rubyや各種サーバー、追加ツールのインストールが含まれる。あらかじめ定義されたプレイブックを適用することで、手動設定によるミスや揺れを無くし、冪等性を持った環境構築を実現する。さらに、IaCを採用しており、インフラの状態をコードとして管理できるため、バージョン管理や高い再現性を確保することが可能である。"
   },
