@@ -15,7 +15,7 @@ layout: default
 
 <div class="one-half column">
 
-<% if lang[:lang] == "ja" %>
+<% if lang[:lang].eql?("ja") %>
 <section>
 <img alt="lotus" src="/assets/images/lotus.webp" width="1000" height="1000" style="width:100%; height:auto;">
 </section>
@@ -36,13 +36,10 @@ layout: default
         <%= info['tags'].sort_by { |s| s.upcase }.join(", ") %>
         </li>
     </ul>
-</article>
-<div class="spacer"></div>
-<% end %>
 
-<% if lang[:lang] == "en" %>
-<figure>
-<pre><code style="background: #fff; color: #000;border-radius: 0px; border: 2px solid #000; user-select: none; font-size: 1.3rem">class Hash
+
+<% if lang[:lang].eql?("en") && name.eql?("YS1")%>
+<figure><pre><code style="background: #fff; color: #000;border-radius: 0px; border: 2px solid #000; user-select: none; font-size: 1.3rem">class Hash
   def to_anon_class
     source = self
 
@@ -56,9 +53,11 @@ layout: default
       end
     end
   end
-end</code></pre>
-<figcaption>From YS1</figcaption>
-</figure>
+end</code></pre></figure>
+<% end %>
+
+</article>
+<div class="spacer"></div>
 <% end %>
 
 <a href="/docs/"><%= lang[:more] %></a>
