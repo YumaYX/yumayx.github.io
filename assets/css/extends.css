@@ -193,3 +193,7 @@ img {
     object-fit: cover;
 }
 
+figure {
+  margin: 1em 0px;
+}
+
