@@ -9,9 +9,9 @@
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
-    "desc": "YS0 is an Ansible-based playbook for building a working environment on Red Hat Enterprise Linux–based distributions. The playbook includes installation of Ruby, various servers, and additional tools. By applying predefined playbooks, it eliminates errors and inconsistencies caused by manual configuration and enables the creation of an idempotent environment. It also adopts Infrastructure as Code (Infrastructure as Code), allowing infrastructure states to be managed as code, which enables version control and high reproducibility.",
+    "desc": "YS0 is an Ansible-based playbook for building a working environment on Red Hat Enterprise Linux–based distributions. The playbook includes installation of Ruby, various servers, and additional tools. By applying predefined playbooks, it eliminates errors and inconsistencies caused by manual configuration and enables the creation of an idempotent environment. It also adopts Infrastructure as Code, allowing infrastructure states to be managed as code, which enables version control and high reproducibility.",
     "tags": ["Ansible", "IaC(Infrastructure as Code)", "Git"],
-    "desc_ja": "YS0は、Ansibleを使用して、Red Hat Enterprise Linuxベースのディストリビューション上に作業環境を構築するプレイブックである。プレイブックには、Rubyや各種サーバー、追加ツールのインストールが含まれる。あらかじめ定義されたプレイブックを適用することで、手動設定によるミスや揺れを無くし、冪等性を持った環境構築を実現する。さらに、IaC（Infrastructure as Code）を採用しており、インフラの状態をコードとして管理できるため、バージョン管理や高い再現性を確保することが可能である。"
+    "desc_ja": "YS0は、Ansibleを使用して、Red Hat Enterprise Linuxベースのディストリビューション上に作業環境を構築するプレイブックである。プレイブックには、Rubyや各種サーバー、追加ツールのインストールが含まれる。あらかじめ定義されたプレイブックを適用することで、手動設定によるミスや揺れを無くし、冪等性を持った環境構築を実現する。さらに、IaCを採用しており、インフラの状態をコードとして管理できるため、バージョン管理や高い再現性を確保することが可能である。"
   },
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
@@ -25,13 +25,13 @@
     "short": "Ruby Code Examples",
     "desc": "YS124 is a document that compiles Ruby code snippets along with their execution results in irb (Interactive Ruby). It functions as a practical cheat sheet designed to help users quickly understand how code behaves in practice. By presenting Ruby code examples together with their outputs, it deepens understanding and supports faster development. It serves as a reliable reference for Ruby operations and patterns.",
     "tags": ["Ruby", "Docs", "Code snippets"],
-    "desc_ja": "YS124は、Rubyのコードスニペットと、それらをirb（Interactive Ruby）で実行した結果をまとめたドキュメントである。実用的なチートシートとして機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。Rubyのコードスニペットの具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援する。Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
+    "desc_ja": "YS124は、Rubyのコードスニペットと、それらをirbで実行した結果をまとめたドキュメントである。実用的なチートシートとして機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。Rubyのコードスニペットの具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援する。Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
     "desc": "YS1XL is a collection of reusable VBA (Visual Basic for Applications) functions designed for Microsoft Excel. It provides standardized, ready-to-use components that eliminate the need to repeatedly write the same code. By leveraging these functions, routine tasks can be automated and workflows can be streamlined. It also improves consistency and maintainability, making Excel-based operations more efficient and reliable.",
     "tags": ["Excel VBA", "Programming", "Macros"],
-    "desc_ja": "YS1XLは、Microsoft Excel向けに設計された、再利用可能なVBA（Visual Basic for Applications）の関数集である。標準化されたすぐに使えるコンポーネントを提供する。それにより、同じコードを繰り返し記述する手間を省く。これらの関数を活用することで、定型作業の自動化やワークフローの効率化が可能になる。また、一貫性と保守性の向上にも寄与し、Excelベースの業務をより効率的かつ信頼性の高いものにする。"
+    "desc_ja": "YS1XLは、Microsoft Excel向けに設計された、再利用可能なVBAの関数集である。標準化されたすぐに使えるコンポーネントを提供する。それにより、同じコードを繰り返し記述する手間を省く。これらの関数を活用することで、定型作業の自動化やワークフローの効率化が可能になる。また、一貫性と保守性の向上にも寄与し、Excelベースの業務をより効率的かつ信頼性の高いものにする。"
   }
 }
