@@ -11,10 +11,8 @@
 
   <body>
     
-    <nav class="navbar">
-      <div class="container">
+    <nav class="navbar container">
         <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-      </div>
     </nav>
 
     <div class="container">
@@ -25,15 +23,13 @@
 
     <hr>
 
-    <footer>
-      <div class="container credit">
+    <footer class="container credit">
         <h1>Yuma</h1>
         {% if site.baseurl == "" %}
         <p>✎ {{ site.title }} CREATED AND MAINTAINED BY <a href="https://github.com/YumaYX">YumaYX</a></p>
         {% else %}
         <p>✎ {{ site.title }} CREATED AND MAINTAINED BY <a href="https://yumayx.github.io/">Yuma</a></p>
         {% endif %}
-      </div>
     </footer>
 
   </body>
