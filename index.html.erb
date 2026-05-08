@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section>
-<div class="center"><h1>SELECTED WORKS</h1><p>Yuma</p></div>
+<div class="center"><h1><strong>SELECTED WORKS</strong></h1><p>Yuma</p></div>
 </section>
 
 <div class="row">
@@ -28,11 +28,11 @@ layout: default
     <h2><a href="<%= info['url'] %>"><%= name %></a></h2>
     <ul>
         <li style="<%= "text-align: justify;" if lang[:lang] == "en" %>">
-        <b><%= lang[:lang] == "en" ? "<i>Abstract</i>" : "概要" %></b> - <%= info[lang[:desc_key]] %>
+        <%= lang[:lang] == "en" ? "<i>Abstract</i>" : "概要" %> - <%= info[lang[:desc_key]] %>
         </li>
 
         <li>
-        <b><%= lang[:lang] == "en" ? "<i>Keywords: </i>" : "キーワード: " %></b>
+        <%= lang[:lang] == "en" ? "<i>Keywords: </i>" : "キーワード: " %>
         <%= info['tags'].sort_by { |s| s.upcase }.join(", ") %>
         </li>
     </ul>
