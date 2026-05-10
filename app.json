@@ -24,34 +24,34 @@
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem",
-    "desc": "YS1 is a Ruby gem that performs fundamental information processing. It is a conceptual model with practical usability, designed to improve the efficiency and accuracy of data handling and information processing. It emphasizes reproducibility, ensuring the same state can be consistently recreated across environments. The implementation uses a simple structure built with classes and modules, and includes automated testing. It also leverages metaprogramming to enhance usability for end users.",
+    "desc": "YS1 is a Ruby gem that performs fundamental <code>information processing</code>. It is a conceptual model with practical usability, designed to improve the efficiency and accuracy of data handling and information processing. It emphasizes reproducibility, ensuring the same state can be consistently recreated across environments. The implementation uses a simple structure built with classes and modules, and includes automated testing. It also leverages metaprogramming to enhance usability for end users.",
     "tags": [
       "Ruby",
       "Programming",
       "gem"
     ],
-    "desc_ja": "YS1は、基礎的な情報処理を行うRuby gemである。実用性を兼ね備えたコンセプトモデルである。データの取り扱いや情報処理の効率と正確性を向上させる。また、どの環境でも同じ状態を繰り返し再現できることを重視している。クラスやモジュールを使って、シンプルな構成で実装しており、自動テストも行なっている。また、メタプログラミングを用いて実装しており、使用者に利便性を提供する。"
+    "desc_ja": "YS1は、基礎的な<code>情報処理</code>を行うRuby gemである。実用性を兼ね備えたコンセプトモデルである。データの取り扱いや情報処理の効率と正確性を向上させる。また、どの環境でも同じ状態を繰り返し再現できることを重視している。クラスやモジュールを使って、シンプルな構成で実装しており、自動テストも行なっている。また、メタプログラミングを用いて実装しており、使用者に利便性を提供する。"
   },
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
     "short": "Ruby Code Examples",
-    "desc": "YS124 is a document that compiles Ruby code snippets along with their execution results in irb (Interactive Ruby). It functions as a practical cheat sheet designed to help users quickly understand how code behaves in practice. By presenting Ruby code examples together with their outputs, it deepens understanding and supports faster development. It serves as a reliable reference for Ruby operations and patterns.",
+    "desc": "YS124 is a document that compiles <code>Ruby code snippets</code> along with their execution results in irb (Interactive Ruby). It functions as a practical cheat sheet designed to help users quickly understand how code behaves in practice. By presenting Ruby code examples together with their outputs, it deepens understanding and supports faster development. It serves as a reliable reference for Ruby operations and patterns.",
     "tags": [
       "Ruby",
       "Docs",
       "Code snippets"
     ],
-    "desc_ja": "YS124は、Rubyのコードスニペットと、それらをirbで実行した結果をまとめたドキュメントである。実用的なチートシートとして機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。Rubyのコードスニペットの具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援する。Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
+    "desc_ja": "YS124は、<code>Rubyのコードスニペット</code>と、それらをirbで実行した結果をまとめたドキュメントである。実用的なチートシートとして機能し、コードが実際にどのように動作するかを素早く理解できるように設計されている。Rubyのコードスニペットの具体例と実行結果をセットで示すことで理解を深め、開発スピードの向上を支援する。Rubyの操作やパターンに関する信頼できるリファレンスを提供する。"
   },
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
-    "desc": "YS1XL is a collection of reusable VBA (Visual Basic for Applications) functions designed for Microsoft Excel. It provides standardized, ready-to-use components that eliminate the need to repeatedly write the same code. By leveraging these functions, routine tasks can be automated and workflows can be streamlined. It also improves consistency and maintainability, making Excel-based operations more efficient and reliable.",
+    "desc": "YS1XL is a collection of reusable <code>VBA (Visual Basic for Applications) functions</code> designed for Microsoft Excel. It provides standardized, ready-to-use components that eliminate the need to repeatedly write the same code. By leveraging these functions, routine tasks can be automated and workflows can be streamlined. It also improves consistency and maintainability, making Excel-based operations more efficient and reliable.",
     "tags": [
       "Excel VBA",
       "Programming",
       "Macros"
     ],
-    "desc_ja": "YS1XLは、Microsoft Excel向けに設計された、再利用可能なVBAの関数集である。標準化されたすぐに使えるコンポーネントを提供する。それにより、同じコードを繰り返し記述する手間を省く。これらの関数を活用することで、定型作業の自動化やワークフローの効率化が可能になる。また、一貫性と保守性の向上にも寄与し、Excelベースの業務をより効率的かつ信頼性の高いものにする。"
+    "desc_ja": "YS1XLは、Microsoft Excel向けに設計された、再利用可能な<code>VBAの関数集</code>である。標準化されたすぐに使えるコンポーネントを提供する。それにより、同じコードを繰り返し記述する手間を省く。これらの関数を活用することで、定型作業の自動化やワークフローの効率化が可能になる。また、一貫性と保守性の向上にも寄与し、Excelベースの業務をより効率的かつ信頼性の高いものにする。"
   }
 }
