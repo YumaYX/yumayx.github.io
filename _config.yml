@@ -13,3 +13,4 @@ exclude:
   - app.rb
   - Makefile
   - README.md
+  - trans.rb
