@@ -2,7 +2,7 @@
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
-    "desc": "YS910 is a comprehensive technical resource for Linux system administration, detailing verified results of various administrative tasks and operations. The documentation specifically targets AlmaLinux 9 and 10, providing full support for Red Hat Enterprise Linux (RHEL) compatible distributions. Key features include concise command cheat sheets and optimized workflows designed for maximum efficiency. By documenting precise setup procedures, YS910 ensures high reproducibility across environments. The ultimate goal of this project is to reduce labor hours, enhance operational efficiency, and facilitate seamless system deployments.",
+    "desc": "YS910 is a Linux system administration document. It details system administration tasks and operations, including verification results. The target distribution covered in the document is AlmaLinux 9/10, which supports Red Hat Enterprise Linux (RHEL) compatible distributions. The document provides a concise command cheat sheet and explains efficient workflows. It also documents setup procedures to ensure reproducibility. The goal of this project is to reduce working time, improve operational efficiency, and smooth out system deployment.",
     "tags": [
       "RHEL",
       "Docs",
@@ -13,7 +13,7 @@
   "YS0": {
     "url": "https://github.com/YumaYX/YS0",
     "short": "Ansible Playbook",
-    "desc": "YS0 is an Ansible playbook designed to build a working environment on a Red Hat Enterprise Linux-based distribution. It includes the installation of Ruby, various servers, and additional tools. By applying this predefined playbook, it eliminates errors and inconsistencies associated with manual configuration. The playbook is idempotent, managing the infrastructure state as code. It utilizes the version control system Git, ensuring reproducibility through both idempotency and version control.",
+    "desc": "YS0 is an Ansible playbook. This playbook builds a working environment on a Red Hat Enterprise Linux-based distribution, including the installation of Ruby, various servers, and additional tools. By applying a pre-defined playbook, it eliminates errors and inconsistencies that occur with manual configuration. It is an idempotent playbook. It manages the infrastructure state as code. It uses the version control system Git. It ensures reproducibility through idempotency and version control.",
     "tags": [
       "Ansible",
       "IaC(Infrastructure as Code)",
@@ -24,7 +24,7 @@
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem",
-    "desc": "YS1 is a Ruby gem designed for fundamental information processing, serving as a conceptual model built for practical utility. It enhances both the efficiency and accuracy of data handling and processing tasks. A core focus of YS1 is ensuring consistent reproducibility across any environment. The internal architecture is kept simple, utilizing standard classes and modules, and is backed by a suite of automated tests. Furthermore, it leverages metaprogramming to provide a highly intuitive and convenient interface for users.",
+    "desc": "YS1 is a Ruby gem. It performs basic information processing and is a concept model that combines practicality with functionality. It aims to improve the efficiency and accuracy of data handling and information processing. Furthermore, it emphasizes the ability to repeatedly reproduce the same state in any environment. It is implemented using classes and modules in a simple structure. It includes automated testing. Additionally, it uses metaprogramming to provide convenience to users.",
     "tags": [
       "Ruby",
       "Programming",
@@ -35,7 +35,7 @@
   "YS124": {
     "url": "https://yumayx.github.io/YS124/",
     "short": "Ruby Code Examples",
-    "desc": "YS124 is a collection of Ruby code snippets. It is a document compiling the results of executing Ruby scripts in IRB. By presenting Ruby code snippets and their execution results together, it is easy to understand. It covers topics from basic code snippets to metaprogramming. It provides a reliable reference for Ruby operations and patterns. It functions as a practical cheat sheet.",
+    "desc": "YS124 is a collection of Ruby code snippets. It is a document compiling the results of running Ruby scripts in IRB. By presenting Ruby code snippets and their execution results together, it is easy to understand. It covers topics from basic code snippets to metaprogramming. It provides a reliable reference for Ruby operations and patterns. It functions as a practical cheat sheet.",
     "tags": [
       "Ruby",
       "Docs",
@@ -46,7 +46,7 @@
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
-    "desc": "YS1XL is a collection of VBA functions specifically engineered for Microsoft Excel. It provides ready-to-use, reusable components designed to eliminate the need for redundant coding. By leveraging these functions, users can automate routine tasks and significantly streamline their workflows. YS1XL also contributes to enhanced consistency and maintainability, making Excel-based operations more efficient and reliable.",
+    "desc": "YS1XL is a collection of VBA functions designed for Microsoft Excel. It provides readily usable, reusable components, saving the effort of repeatedly writing the same code. By utilizing these functions, it is possible to automate routine tasks and streamline workflows. Furthermore, it contributes to improved consistency and maintainability, making Excel-based operations more efficient and reliable.",
     "tags": [
       "Excel VBA",
       "Programming",
