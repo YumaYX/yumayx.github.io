@@ -2,7 +2,7 @@
   "YS910": {
     "url": "https://yumayx.github.io/YS910/",
     "short": "Docs for RHEL Clones",
-    "desc": "YS910 is a document on Linux system administration. It details system administration tasks and operations along with verification results. The distribution covered in the document is AlmaLinux 9/10, which supports Red Hat Enterprise Linux (RHEL) compatible distributions. The document provides a concise command cheat sheet and explains efficient workflows. Setup procedures are documented to ensure reproducibility. The goal of this project is to reduce working time, improve operational efficiency, and smooth system deployment.",
+    "desc": "YS910 is a comprehensive technical resource for Linux system administration, detailing verified results of various administrative tasks and operations. The documentation specifically targets AlmaLinux 9 and 10, providing full support for Red Hat Enterprise Linux (RHEL) compatible distributions. Key features include concise command cheat sheets and optimized workflows designed for maximum efficiency. By documenting precise setup procedures, YS910 ensures high reproducibility across environments. The ultimate goal of this project is to reduce labor hours, enhance operational efficiency, and facilitate seamless system deployments.",
     "tags": [
       "RHEL",
       "Docs",
@@ -24,7 +24,7 @@
   "YS1": {
     "url": "https://yumayx.github.io/YS1/",
     "short": "Ruby Gem",
-    "desc": "YS1 is a Ruby gem that performs basic information processing. It is a concept model that combines practicality, aiming to improve the efficiency and accuracy of data handling and information processing. It emphasizes the ability to repeatedly reproduce the same state in any environment. It is implemented with a simple structure using classes and modules, and includes automated testing. Furthermore, it utilizes metaprogramming to provide convenience to users.",
+    "desc": "YS1 is a Ruby gem designed for fundamental information processing, serving as a conceptual model built for practical utility. It enhances both the efficiency and accuracy of data handling and processing tasks. A core focus of YS1 is ensuring consistent reproducibility across any environment. The internal architecture is kept simple, utilizing standard classes and modules, and is backed by a suite of automated tests. Furthermore, it leverages metaprogramming to provide a highly intuitive and convenient interface for users.",
     "tags": [
       "Ruby",
       "Programming",
@@ -46,7 +46,7 @@
   "YS1XL": {
     "url": "https://github.com/YumaYX/YS1XL/",
     "short": "VBA Functions",
-    "desc": "YS1XL is a collection of VBA functions designed for Microsoft Excel. It provides readily usable, reusable components, eliminating the need to repeatedly write the same code. By utilizing these functions, it is possible to automate routine tasks and streamline workflows. Furthermore, it contributes to improved consistency and maintainability, making Excel-based operations more efficient and reliable.",
+    "desc": "YS1XL is a collection of VBA functions specifically engineered for Microsoft Excel. It provides ready-to-use, reusable components designed to eliminate the need for redundant coding. By leveraging these functions, users can automate routine tasks and significantly streamline their workflows. YS1XL also contributes to enhanced consistency and maintainability, making Excel-based operations more efficient and reliable.",
     "tags": [
       "Excel VBA",
       "Programming",
