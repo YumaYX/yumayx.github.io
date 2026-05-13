@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
-require 'json'
 require 'date'
 require 'erb'
+require 'yaml'
 
-# Load shared data from JSON file
-@content_data = File.open('app.json') { |file| JSON.load(file) }
+# Load shared data from YAML file
+@content_data = YAML.safe_load(File.open('works.yaml'))
 
 # Process all .html.erb files in the current directory
 Dir.glob("*.html.erb").each do |erb_file|
