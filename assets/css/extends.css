@@ -1,11 +1,12 @@
 html {
     scroll-padding-top: 60px;
+    font-size: 58%;
 }
 
 body,
 code {
     color: #000;
-    font-size: 18px;
+    font-size: 1.6rem;
     line-height: 2.6rem;
 }
 
@@ -18,7 +19,7 @@ pre code {
     border-radius: 11px;
     line-height: 2.3rem;
     padding: 1.5rem 1.8rem;
-    font-size: 16px;
+    font-size: 1px;
     overflow-x: auto;
 }
 
@@ -169,7 +170,7 @@ small * {
   vertical-align: middle;
   transform: scaleX(1.1);
   /* transform-origin: left; */
-  font-size: 33px;
+  font-size: 2.8rem;
 }
 
 blockquote {
