@@ -1,6 +1,5 @@
 html {
     scroll-padding-top: 60px;
-    font-size: 58%;
 }
 
 body,
@@ -17,9 +16,9 @@ hr {
 
 pre code {
     border-radius: 11px;
-    line-height: 2.3rem;
+    line-height: 1.8rem;
     padding: 1.5rem 1.8rem;
-    font-size: 1px;
+    font-size: 1.4rem;
     overflow-x: auto;
 }
 
