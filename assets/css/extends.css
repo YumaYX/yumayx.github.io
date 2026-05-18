@@ -118,8 +118,6 @@ footer p {
 
 footer h1 {
     font-size: 4rem;
-    transform: scaleX(1.1);
-    transform-origin: left;
     letter-spacing: 0rem;
     margin-bottom: 0;
 }
@@ -167,8 +165,6 @@ small * {
 .navbar h1 a {
   display: inline-block;
   vertical-align: middle;
-  transform: scaleX(1.1);
-  /* transform-origin: left; */
   font-size: 2.8rem;
 }
 
