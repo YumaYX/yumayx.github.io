@@ -5,10 +5,9 @@ html {
 body,
 code {
     color: #000;
-    font-size: 1.4rem;
-    line-height: 2.0rem;
+    line-height: 2rem;
+    font-family: "Times New Roman", Times, serif;
 }
-
 
 hr {
     border: 0.5px solid #000;
@@ -21,7 +20,8 @@ pre code {
     overflow-x: auto;
 }
 
-pre code, code {
+pre code,
+code {
     color: #000;
     /**
      * background:#f2f2f2;
@@ -152,33 +152,29 @@ footer h1 {
     padding-top: 60px;
 }
 
-small,
-small * {
-    font-size: 1rem;
-}
-
 .navbar h1 {
-  margin: 0;
+    margin: 0;
 }
 
 .navbar h1 a {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 2.8rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.8rem;
 }
 
 blockquote {
     background: #fff;
-    border-left: 0.4rem solid #181B39;
+    border-left: 0.4rem solid #181b39;
 }
 
 blockquote p {
-    color: #181B39;
+    color: #181b39;
     padding: 1rem;
     font-style: italic;
 }
 
-section, article {
+section,
+article {
     margin: 1em 1rem 2rem;
 }
 
@@ -189,6 +185,5 @@ img {
 }
 
 figure {
-  margin: 0.5em 0px 0.2em;
+    margin: 0.5em 0px 0.2em;
 }
-
