@@ -1,0 +1,30 @@
+html, body, a, p, strong, code, h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    background-color: #fff;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration:underline
+}
+
+footer a{
+    color:#ff7b00
+}
+
+code {
+    background-color: #ffe100;
+}
+
+blockquote {
+    border-color: #000;
+    font-style: italic;
+}
+
+footer {
+    border-color: #000;
+}
+
