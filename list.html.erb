@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section>
+
+<div class="row">
+<div class="three columns">
+
+<article>
+<h1><%= "SELECTED WORKS".split.map(&:capitalize).join(" ") %></h1>
+<ul><% @content_data.each do |name, info| %>
+<li><a href="<%= info['url'] %>"><%= name %></a></li>
+<% end %></ul>
+<a href="/docs/">more..</a>
+</article>
+</div>
+
+<div class="nine columns">
+<img alt="lotus" src="/assets/images/top.webp" width="1000" height="1000" style="width:100%; height:auto;">
+</div>
+
+</div>
+</section>
