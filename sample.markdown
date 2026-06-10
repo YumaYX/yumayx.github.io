@@ -2,16 +2,37 @@
 layout: post
 ---
 
-<h2>title</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+# Heading1
+## Heading2
+### Heading3
+#### Heading4
+##### Heading5
+###### Heading6
 
-<div class="row">
-<div class="one-half column">
-<small>sample</small>
-<h2>sample</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-</div>
+paragraph
+
+| a | b |
+| --- | --- |
+| a1 | b1|
+{: .u-full-width}
+
+- list
+  - list
+  - list
+- list
+  - list
+  - list
+
+* list
+  * list
+  * list
+
+1. number
+    1. number
+    1. number
+1. number
+    1. number
+    1. number
 
 ```ruby
 # Ruby knows what you
@@ -31,62 +52,21 @@ puts "I still need " +
      cities - visited
 ```
 
-`sample`
+> quote
 
-# list
+[link](#)
 
-- Item 1
-  - Sub-item 1.1
-    - Detail 1.1.1
-  - Sub-item 1.2
-    - Detail 1.2.1
-- Item 2
-  - Sub-item 2.1
-    - Detail 2.1.1
-  - Sub-item 2.2
-    - Detail 2.2.1
-- Item 3
-  - Sub-item 3.1
-    - Detail 3.1.1
-  - Sub-item 3.2
-    - Detail 3.2.1
+- *style*
+  - `*style*`
+- **style**
+  - `**style**`
+- ***style***
+  - `***style***`
+- ~~style~~
+  - `~~style~~`
 
-# num
+![alt](/assets/images/lotus.webp)
 
-1. Step One
-   1. Sub-step One
-      1. Detail One
-1. Step Two
-   1. Sub-step Two
-      1. Detail Two
-1. Step Three
-   1. Sub-step Three
-      1. Detail Three
+- [ ] a
+- [x] b
 
-
-# quote
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# class(grid)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-# App Template
-
-```json
-  "<name>": {
-    "url": "",
-    "tags": [
-      "",
-      "",
-      ""
-    ],
-    "description": "",
-    "summary": "",
-    "summary_ja": "",
-    "features": "",
-    "features_ja": ""
-  }
-```
