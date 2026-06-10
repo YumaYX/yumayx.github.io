@@ -1,11 +1,13 @@
+/* Global Resets & Defaults */
 html, .navbar, blockquote * {
     background-color: #fff;
 }
 
-body, a, a:hover, pre code, code{
+body, pre code, code, a, a:hover {
     color: #000;
 }
 
+/* Navigation Bar Styling */
 .navbar {
     position: fixed;
     inset: 0;
@@ -19,10 +21,16 @@ body, a, a:hover, pre code, code{
     margin: 0;
 }
 
+/* Layout Containers */
 .main {
     padding: 6.5rem 0 2rem;
 }
 
+.center {
+    text-align: center;
+}
+
+/* Typography & Links */
 a {
     text-decoration: none;
     font-weight: 700;
@@ -32,19 +40,13 @@ a:hover {
     text-decoration: underline;
 }
 
-pre code {
-    border-radius: 1rem;
-    line-height: 1.8rem;
-    padding: 1.5rem 1.8rem;
-    overflow-x: auto;
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    scroll-margin-top: 6rem;
 }
 
-pre code,
-code {
-    background: #ffe100;
-    border: 0;
-}
-
+/* Headings Specific Sizes */
 h1 { font-size: 3rem; }
 h2 { font-size: 2.6rem; }
 h3 { font-size: 2.2rem; }
@@ -52,21 +54,10 @@ h4 { font-size: 1.8rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1rem; }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
-    scroll-margin-top: 6rem;
-}
+/* Lists */
+ul, ol { list-style: none; margin-top: 0; margin-bottom: 0.4rem; }
 
-ul {
-    list-style: none;
-}
-
-li, ol {
-    margin-top: 0;
-    margin-bottom: 0.4rem;
-}
-
+/* Nested List Indentation (Specificity maintained) */
 ul ul,
 ul ol,
 ol ol,
@@ -74,10 +65,28 @@ ol ul {
     margin: 0.4rem 0 0.4rem 1rem;
 }
 
-.center {
-    text-align: center;
+li, ol { margin-bottom: 0.4rem; }
+
+
+/* Code Blocks Styling */
+pre code {
+    border-radius: 1rem;
+    line-height: 1.8rem;
+    padding: 1.5rem 1.8rem;
+    overflow-x: auto;
 }
 
+/* Resetting background/borders for all code instances */
+pre code,
+code {
+    background: #ffe100;
+    border: 0;
+}
+
+
+/* Special Blocks and Elements */
+
+/* Blockquote Styling (scope maintained) */
 blockquote *{
     border-left: 0.3rem solid #181b39;
     color: #181b39;
@@ -85,12 +94,14 @@ blockquote *{
     font-style: italic;
 }
 
+/* Image Handling */
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* Figure Spacing */
 figure {
     margin: 0.5em 0px 1.4em;
 }
@@ -99,6 +110,7 @@ hr {
     border: 0.5px solid #000;
 }
 
+/* Footer/Credit Styling */
 .credit a,
 .credit p {
     text-transform: uppercase;
