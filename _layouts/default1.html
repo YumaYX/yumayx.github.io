@@ -24,8 +24,12 @@
     <hr>
 
     <footer class="container credit">
-      <h1><a href="https://github.com/YumaYX">Yuma</a></h1>
-      <p>✎ {{ site.title }} CREATED AND MAINTAINED BY Yuma</p>
+      <h1>Yuma</h1>
+      {% if site.baseurl == "" %}
+      <p>✎ {{ site.title }} CREATED AND MAINTAINED BY <a href="https://github.com/YumaYX">YumaYX</a></p>
+      {% else %}
+      <p>✎ {{ site.title }} CREATED AND MAINTAINED BY <a href="https://yumayx.github.io/">Yuma</a></p>
+      {% endif %}
     </footer>
 
   </body>
