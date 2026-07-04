@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ site.title }}</title>
+    <title>{{ page.title | default: '' }}{% if page.title %} | {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="https://yumayx.github.io/assets/css/skeleton.css">
     <link rel="stylesheet" href="https://yumayx.github.io/assets/css/extends.css">
     <link rel="icon" href="https://yumayx.github.io/favicon.png" type="image/png">
