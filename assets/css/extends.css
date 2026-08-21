@@ -78,7 +78,7 @@ ol ul {
     text-align: center;
 }
 
-blockquote *{
+blockquote p {
     border-left: 0.3rem solid #181b39;
     color: #181b39;
     padding: 1rem;
