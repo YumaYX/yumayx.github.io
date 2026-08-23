@@ -3,82 +3,22 @@ layout: default
 ---
 
 <section>
-<div class="center"><h1><a href="/"><%= "SELECTED WORKS".split.map(&:capitalize).join(" ") %></a></h1><p>Yuma</p></div>
+  <div class="center">
+    <h1><a href="#">Selected Works</a></h1>
+    <p>Yuma</p>
+  </div>
 </section>
-
-<div class="row">
-
-<% [
-  { lang: "en", desc_key: "desc", more: "more.." },
-  { lang: "ja", desc_key: "desc_ja", more: "さらに表示.." }
-].each do |lang| %>
-
-<div class="one-half column">
-
-<% if lang[:lang].eql?("ja") %>
-<section>
-<img alt="lotus" src="/assets/images/lotus.webp" width="1000" height="1000" style="width:100%; height:auto;">
-</section>
-<% end %>
 
 <section>
+  <ul>
+    <% @content_data.each do |name, info| %>
+      <li>
+        <a href="<%= info['url'] %>"><%= name %></a>:
+        <%= info['desc'].split(".").first %>.
+      </li>
+    <% end %>
+  </ul>
 
-<% @content_data.each do |name, info| %>
-<article>
-    <h2><a href="<%= info['url'] %>"><%= name %></a></h2>
-    <ul>
-        <li style="<%= "text-align: justify;" if lang[:lang] == "en" %>">
-        <%= lang[:lang] == "en" ? "<i>Abstract</i>" : "概要" %> ─ <%= info[lang[:desc_key]] %>
-        </li>
-
-        <li>
-        <%= lang[:lang] == "en" ? "<i>Keywords: </i>" : "キーワード: " %>
-        <%= info['tags'].sort_by { |s| s.upcase }.join(", ") %>
-        </li>
-    </ul>
-
-
-<% if lang[:lang].eql?("en") && name.eql?("YS1")%>
-<figure><pre style="margin: 0;"><code style="background: #fff; color: #000;border-radius: 0px; border: 2px solid #000; user-select: none; font-size: 1.3rem">class Hash
-  def to_anon_class
-    source = self
-
-    Class.new do
-      source.each_key { |key| attr_accessor key.to_sym }
-
-      define_method(:initialize) do
-        source.each do |key, value|
-          instance_variable_set("@#{key}", value)
-        end
-      end
-    end
-  end
-end</code></pre>
-<figcaption>Dynamically Generate Class from Hash</figcaption></figure>
-<% end %>
-
-</article>
-<% end %>
-
-<a href="/docs/"><%= lang[:more] %></a>
-
+  <a href="/docs/">more..</a> /
+  <a href="/full.html">Full Ver.</a>
 </section>
-</div>
-
-<% end %>
-
-</div>
-
-
-<div class="row">
-<div class="one-half column">
-<hr>
-<h1><a href="/">yumayx.github.io</a></h1>
-<ul>
-  <li>Built with <a href="https://jekyllrb.com">Jekyll</a></li>
-  <li>Hosted on <a href="https://pages.github.com">GitHub Pages</a></li>
-  <li>Styled with <a href="http://getskeleton.com">Skeleton</a></li>
-  <li>Created and Maintained by <a href="https://github.com/YumaYX">Yuma</a></li>
-</ul>
-</div>
-</div>

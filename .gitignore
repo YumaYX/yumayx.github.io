@@ -4,6 +4,7 @@ _site/
 .jekyll-metadata/
 vendor/
 .DS_Store
-index.markdown
-list.markdown
 *.swp
+index.markdown
+full.markdown
+list.markdown
