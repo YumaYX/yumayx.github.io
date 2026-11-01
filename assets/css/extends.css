@@ -103,3 +103,20 @@ hr {
     text-transform: uppercase;
 }
 
+.work-title {
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.work-price {
+    font-size: 1.2rem;
+}
+
+.index-title {
+    margin: 8rem 0;
+}
+
+.index-works .row {
+    margin: 4rem 0;
+}
+

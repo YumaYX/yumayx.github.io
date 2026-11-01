@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<section>
+<section class="index-title">
 <div class="center">
 <h1><a href="/">THE DIGITAL COLLECTION #01</a></h1>
 </div>
 </section>
 
-<section>
+<section class="index-works">
 <% cells = @content_data.to_a.sort + [[nil, nil]] %>
 <% cells.each_slice(3) do |group| %>
 <div class="row">
@@ -22,8 +22,8 @@ layout: default
 <img src="/assets/images/<%= name.downcase %>.png" class="u-max-full-width" style="border:0.7px solid #000;">
 </a>
 <figcaption>
-    <a href="<%= info['url'] %>"><%= name %> - <%= info['short'] %></a>
-    <p>PRICE — PRICELESS</p>
+    <a class="work-title" href="<%= info['url'] %>"><%= name %> - <%= info['short'] %></a>
+    <p class="work-price">PRICE — PRICELESS</p>
 </figcaption></figure>
 
 </article>
