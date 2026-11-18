@@ -3,62 +3,27 @@ layout: default
 ---
 
 <section class="index-title">
-<div class="center">
-<h1><a href="/">THE DIGITAL COLLECTION #01</a></h1>
-</div>
+  <div class="center">
+    <h1><a href="/">THE DIGITAL COLLECTION #01</a></h1>
+  </div>
 </section>
 
 <section class="index-works">
-<% cells = @content_data.to_a.sort + [[nil, nil]] %>
-<% cells.each_slice(3) do |group| %>
-<div class="row">
-<% group.each do |name, info| %>
-<% if name %>
-<div class="one-third column">
-<article>
+  <ul>
+    <% cells = @content_data.to_a.sort + [[nil, nil]] %>
 
-<figure>
-<a href="<%= info['url'] %>">
-<img src="/assets/images/<%= name.downcase %>.png" class="u-max-full-width" style="border:0.7px solid #000;">
-</a>
-<figcaption>
-    <a class="work-title" href="<%= info['url'] %>"><%= name %> - <%= info['short'] %></a>
-    <p class="work-price">PRICE — PRICELESS</p>
-</figcaption></figure>
-
-</article>
-</div>
-<% else %>
-<div class="one-third column">
-<article>
-
-<figure>
-<a href="/docs/">
-<img src="/assets/images/others.png" class="u-max-full-width" style="border:0.7px solid #000;">
-</a>
-<figcaption>
-    <a href="/docs/">more..</a>
-</figcaption></figure>
-
-</article>
-</div>
-<% end %>
-<% end %>
-</div>
-<% end %>
+    <% cells.each do |name, info| %>
+      <% if name %>
+        <li>
+          <a class="work-title" href="<%= info['url'] %>">
+            <%= name %> - <%= info['short'] %>
+          </a>
+        </li>
+      <% else %>
+        <li>
+          <a href="/docs/">more..</a>
+        </li>
+      <% end %>
+    <% end %>
+  </ul>
 </section>
-
-
-<div class="row">
-<div class="one-half column">
-<hr>
-<h1><a href="/">yumayx.github.io</a></h1>
-
-<span>MADE WITH <a href="https://jekyllrb.com">JEKYLL</a></span>
-<span>HOSTED BY <a href="https://pages.github.com">GITHUB PAGES</a></span>
-<span>STYLED WITH <a href="http://getskeleton.com">SKELETON</a></span>
-<span>ILLUSTRATIONS <a href="https://loosedrawing.com/">LOOSE DRAWING</a></span>
-<span>MADE &amp; MAINTAINED BY <a href="https://github.com/YumaYX">YUMA</a></span>
-
-</div>
-</div>
